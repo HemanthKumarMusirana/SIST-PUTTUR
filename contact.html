@@ -61,23 +61,19 @@
                 </span>
             </div>
         </div>
-            <div class="contact-col">
+           <div class="contact-container">
+             <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+                   <div class="contact-left-title">
+                      
+                   </div>
+                   <input type="hidden" name="access_key" value="3fb7d51d-464b-4ff0-a8af-390498bb3672">
 
-                <form action="https://api.web3forms.com/submit" method="POST">
-                       
-                    <input type="text" name="name" placeholder="Enter Your Name" required>
-                    <input type="email" name="email" placeholder="Enter Email Address" required>
-                    <input type="text" name="subject" placeholder="Enter Your subject" required>
-                    <textarea rows="8" name="message" placeholder="Message" required></textarea>
-                    <button type="submit" class="hero-btn red-btn">Send Message</button>
-                </form>
-
-
-
-
-
-            </div>
-         <input type="hidden" name="access_key" value="3fb7d51d-464b-4ff0-a8af-390498bb3672">
+                   <input type="text" name="name" placeholder="Enter Name" class="contact-input" required>
+                   <input type="email" name="email" placeholder="Enter Your Email" class="contact-input" required>
+                   <textarea name="message" placeholder="Enter your Message" class="contact-input" required></textarea>
+                   <button class="btn">submit</button>
+             </form>
+         
         </div>
     </section>
  
